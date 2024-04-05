@@ -84,7 +84,7 @@ const Hero = () => {
                 <Image src={imageSrc} alt='Hero Image' quality={100} layout='fill' />
             </div>
             <div className='logo2'>
-                <Image src='/images/logo2.svg' alt='Grindcrete Logo' layout='fill' quality={100} />
+                <Image src='/images/Logo2.svg' alt='Grindcrete Logo' layout='fill' quality={100} />
             </div>
         </section>
     );

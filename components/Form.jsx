@@ -31,7 +31,7 @@ const Form = () => {
                                     <option value="service2">Service 2</option>
                                     {/* <!-- Additional options here --> */}
                                 </select>
-                                <input type="date" id="preferred-date" name="preferred_date" required />
+                                <input type="date" id="preferred-date" name="preferred_date" required placeholder="Preferred Date" />
                             </div>
                         </div>
                         <div class="submit-container">

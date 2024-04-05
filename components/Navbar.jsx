@@ -41,7 +41,7 @@ const Navbar = () => {
             <nav>
                 <Link href='/'>
 
-                    <Image src='/images/logo3.svg' height={30} width={150} alt='logo3' />
+                    <Image src='/images/Logo3.svg' height={30} width={150} alt='logo3' />
 
                 </Link>
                 <a className='inter-light touch'>Get in touch <BsArrowUpRight /></a>
