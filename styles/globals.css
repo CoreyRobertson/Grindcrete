@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+
+
+  --color-blue: #3C71B8;
+  --color-white: #F2F2F2;
+  --color-black: #1D1D20;
+  --color-grey: #B3ACAB;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-black);
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--color-grey);
+  cursor: pointer;
+  transition: .2s;
+  display: flex;
+  align-items: center;
+
+}
+
+.touch {
+  margin-right: 5rem;
+}
+
+nav a:hover {
+  color: var(--color-white);
+  transition: .2s;
+}
+
+nav button {
+  background: none;
+  border: none;
+}
+
+
+.logo2 {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  left: 2.2rem;
+  bottom: 0rem;
+}
+
+.hero_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--color-black);
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero_text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 30rem;
+  margin: 2rem;
+}
+
+.hero_text-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero_text-top h2 {
+  color: var(--color-white);
+  font-size: 105px;
+  letter-spacing: -5px;
+  margin: 0;
+  line-height: 100px;
+}
+
+.hero_text-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.hero_text-bottom p {
+  margin: 0;
+  font-size: 16px;
+  width: 30rem;
+  margin-bottom: .7rem;
+  color: var(--color-grey);
+}
+
+.hero_text-bottom button {
+  margin-bottom: .7rem;
+  background: none;
+  border-radius: 30px;
+  border: solid 1px var(--color-white);
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  padding: .5rem 0;
+  width: 120px;
+
+}
+
+.hero_text-bottom h2 {
+  margin: 0;
+  font-size: 105px;
+  letter-spacing: -5px;
+  background-image: linear-gradient(to right, #3C71B8, #B3ACAB);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  line-height: 100px;
+}
+
+.hero_image-container {
+  position: relative;
+  width: 95vw;
+  height: 60rem;
+  margin: 0rem;
+}
+
+.services_section {
+  background-color: var(--color-black);
+  height: auto;
+  padding: 5rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.services_section h3 {
+  color: var(--color-blue);
+  font-size: 24px;
+  display: flex;
+
+  align-items: center;
+}
+
+.service_card-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  /* Adjust this as needed */
+  margin-bottom: 20px;
+  /* Space between rows */
+  gap: 2rem;
+}
+
+.service_card,
+.buttons-container {
+  flex: 1;
+  /* Allows cards and button div to expand and fill the available space */
+  margin: 0 10px;
+  /* Adjust margin for spacing around items */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  gap: 1rem;
+  max-width: 250px;
+  /* Centers buttons within the div */
+  /* Add other styling here to match the appearance of service cards */
+}
+
+.buttons-container button {
+  margin-bottom: .7rem;
+  background: none;
+  border-radius: 30px;
+  border: solid 1px var(--color-white);
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  padding: .5rem 0;
+  width: 120px;
+
+}
+
+.buttons-container button:nth-child(2) {
+  /* Add your specific styles for the second button here */
+  background-color: var(--color-blue);
+  /* Example property */
+  color: var(--color-white);
+  /* Example property */
+  /* Other specific styles for the second button */
+  border: none;
+}
+
+.service_card {
+  max-width: 250px;
+}
+
+
+.service_card h4 {
+  font-size: 24px;
+  color: var(--color-white);
+  margin: 1rem 0;
+}
+
+.service_card hr {
+  height: 1px;
+  border: none;
+  background-color: var(--color-grey);
+  /* Replace #yourColor with your desired color */
+  margin: 8px 0;
+  /* Optional: Adjusts the spacing around the hr tag */
+}
+
+.service_card p {
+  font-size: 16px;
+  color: var(--color-grey);
+}
+
+.service_diamond {
+  height: 600px;
+  width: 600px;
+  right: 0;
+  position: absolute;
+}
+
+.form_section {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.form_image1 {
+  left: -10rem;
+  bottom: 0;
+  height: 400px;
+  width: 400px;
+  position: absolute
+}
+
+.form_image2 {
+  right: -10rem;
+  top: 0;
+  height: 400px;
+  width: 400px;
+  position: absolute
+}
+
+.form_content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form_section h3 {
+  color: var(--color-blue);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+
+}
+
+.quote-form {
+  /* Adjust as needed */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.quote_form-fields {
+  display: flex;
+  gap: 1rem;
+}
+
+.quote-form .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.quote-form .input-group input,
+.quote-form .input-group select {
+  border: 1px solid #ccc;
+  /* Example border */
+  border-radius: 25px;
+  /* Rounded corners */
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  /* More styles here for placeholder, focus, etc. */
+}
+
+.quote-form .input-group select {
+  -webkit-appearance: none;
+  /* Removes default style of select dropdown */
+  -moz-appearance: none;
+  appearance: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  /* You might want to add a background-image for a custom dropdown arrow */
+}
+
+.quote-form .submit-container {
+
+  /* Submit button spans across both columns */
+}
+
+.quote-form button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+
+  border-radius: 25px;
+  padding: 10px 62px;
+  background-color: var(--color-black);
+  /* Button background color */
+  color: var(--color-white);
+  /* Button text color */
+  border: none;
+  /* Additional button styles here */
+}
+
+.why_section {
+  display: flex;
+  background-color: var(--color-black);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.why_content-container {
+  width: 40vw;
+}
+
+.why_section h3 {
+  color: var(--color-blue);
+  font-size: 24px;
+  display: flex;
+
+  align-items: center;
+}
+
+.why_section p {
+  color: var(--color-grey);
+  font-size: 16px;
+}
+
+.why_section span {
+  color: var(--color-white);
+}
+
+.carousel_container {
+  width: 400px;
+}
+
+.slick-dots li button:before {
+  color: var(--color-grey) !important;
+  /* Change this to your preferred color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--color-white) !important
+}
+
+
+
+footer {
+  height: auto;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 2rem 0;
+  gap: 5rem;
+}
+
+.footer_content-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+footer p {
+  color: var(--color-grey);
+  margin: 0;
+}
+
+footer a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+footer hr {
+  width: 50%;
+  height: 1px;
+  border: none;
+  background-color: var(--color-grey);
+  /* Replace #yourColor with your desired color */
+  margin: 8px 0;
+  /* Optional: Adjusts the spacing around the hr tag */
+}
+
+.overlay {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.overlay a {
+  text-decoration: none;
+
+}
+
+.overlay_links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.overlay_close {
+  background: none;
+  color: var(--color-white);
+  border: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 30px;
+}
+
+.overlay_link {
+  color: var(--color-white);
+  font-size: 105px;
+  letter-spacing: -5px;
+  margin: 0;
+  line-height: 100px;
+}
+
+.overlay_right-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.overlay_right-container a {
+  color: var(--color-white);
+  margin: .5rem;
+}
+
+.overlay_right-container p {
+  color: var(--color-white);
+}
+
+.overlay_icons {
+  display: flex;
+  padding-bottom: .5rem;
+}
+
+.FAQ_section {
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.FAQ_section h3 {
+  color: var(--color-blue);
+}
+
+.FAQ_section h4 {
+  color: var(--color-white);
+}
+
+.FAQ_section p {
+  color: var(--color-grey);
+}
+
+@media only screen and (max-width: 768px) {
+
+  .touch {
+    display: none;
+  }
+
+  .hero_section {
+
+    height: auto;
+
+  }
+
+  .hero_text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    margin: 2rem;
+    padding-top: 3rem;
+  }
+
+  .hero_text-container .hero_text-bottom h2 {
+    order: -1;
+    /* Moves the h2 above its siblings */
+  }
+
+  .hero_text-top h2 {
+    color: var(--color-white);
+    font-size: 90px;
+    letter-spacing: -5px;
+    margin: 0;
+    line-height: 80px;
+  }
+
+  .hero_text-bottom {
+    margin: 0rem;
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .hero_text-bottom h2 {
+    margin: 0rem;
+    font-size: 90px;
+    line-height: 80px;
+  }
+
+  .hero_text-bottom p {
+    margin: .3rem;
+
+    width: auto;
+
+  }
+
+  .services_section {
+
+    padding: 1rem;
+
+  }
+
+
+  .row {
+
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Adjust this as needed */
+    margin-bottom: 0px;
+    /* Space between rows */
+    gap: 1rem;
+  }
+
+  .service_card,
+  .buttons-container {
+    flex: 1;
+    /* Allows cards and button div to expand and fill the available space */
+    margin: 0 10px;
+    /* Adjust margin for spacing around items */
+  }
+
+  .buttons-container {
+
+    margin-top: 1rem;
+
+  }
+
+  .buttons-container button {
+
+    width: 220px;
+
+  }
+
+
+  .service_card {
+    max-width: 100%;
+  }
+
+  .service_diamond {
+    display: none;
+  }
+
+  .why_section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black);
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .why_content-container {
+    width: auto;
+    margin: 2rem;
+  }
+
+  .form_section {
+
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .form_image1 {
+    display: none;
+  }
+
+  .form_image2 {
+    display: none;
+  }
+
+  .quote-form {
+    /* Adjust as needed */
+
+    align-items: center;
+  }
+
+  .quote_form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .quote-form .input-group {
+
+    margin-bottom: 0px;
+  }
+
+  .carousel_container {
+    width: 300px;
+  }
+
+  .footer_content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+
+  footer hr {
+    width: 70%;
+    /* Replace #yourColor with your desired color */
+    margin: 0px 0;
+    /* Optional: Adjusts the spacing around the hr tag */
+  }
+
+  .footer_legal-container {
+    text-align: center;
+    width: 70%;
+  }
+
+  .overlay {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+
+
+
+  .overlay_link {
+    color: var(--color-white);
+    font-size: 64px;
+    letter-spacing: 0px;
+    margin: 0;
+    line-height: 60px;
+  }
+
+  .overlay_right-container {
+    width: 90%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+
+  .FAQ_section {
+    padding: 0rem;
+  }
+
+}
