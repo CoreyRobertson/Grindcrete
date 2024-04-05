@@ -48,9 +48,9 @@ const Hero = () => {
         // Function to dynamically change the image source based on the screen width
         const updateImageSrc = () => {
             if (window.innerWidth <= 768) { // Mobile devices width
-                setImageSrc('/images/HeroIMage2.png');
+                setImageSrc('/images/HeroImage2.png');
             } else {
-                setImageSrc('/images/HeroIMage.png');
+                setImageSrc('/images/HeroImage.png');
             }
         };
 
@@ -84,7 +84,7 @@ const Hero = () => {
                 <Image src={imageSrc} alt='Hero Image' quality={100} layout='fill' />
             </div>
             <div className='logo2'>
-                <Image src='/images/logo2.svg' alt='Grindcrete Logo' layout='fill' quality={100} />
+                <Image src='/images/Logo2.svg' alt='Grindcrete Logo' layout='fill' quality={100} />
             </div>
         </section>
     );

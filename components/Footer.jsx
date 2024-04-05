@@ -9,7 +9,7 @@ const Footer = () => {
         <footer id='contact'>
             <div className='footer_content-container'>
                 <div className='footer_column'>
-                    <Image src='images/logo2.svg' alt='Grindcrete Logo' height={60} width={100} quality={100} />
+                    <Image src='images/Logo2.svg' alt='Grindcrete Logo' height={60} width={100} quality={100} />
                 </div>
                 <div className='footer_column'>
                     <p className='roboto-light'>Nicholas Georgakis</p>
