@@ -68,7 +68,7 @@ const Overlay = ({ isVisible, onClose }) => {
                         <CiInstagram style={{ fontSize: 40 }} />
                     </Link>
                 </div>
-                <Image src='/images/Logo3.svg' height={30} width={150} alt='logo3' />
+                <Image src='/images/logo3.svg' height={30} width={150} alt='logo3' />
 
                 <p className='roboto-light'>Nicholas Georgakis</p>
                 <a className='roboto-light' href="mailto:info@grindcrete.com.au?subject=Grincrete%Enquiry">info@grindcrete.com.au</a>
