@@ -17,8 +17,8 @@ const Form = () => {
                 <Image src='/images/diamondbluegrey.svg' alt='diamondbluegrey' layout='fill' />
             </div>
             <div className='form_content-container'>
-                <h3 className='inter-bold'><BsArrowDownRight />REQUEST A QUOTE</h3>
-                <p style={{ fontSize: '18px' }} className='roboto-bold'>Reach out to us now for an estimate on your home or business flooring needs!</p>
+                <h3 className='inter-bold'>REQUEST A QUOTE</h3>
+                <p style={{ fontSize: '18px', color: '#3C71B8' }} className='roboto-bold'>Reach out to us now for an estimate on your home or business flooring needs!</p>
                 <p className='roboto-light'>Based in the South East of Melbourne, Grind Crete are able to serve not only the entire CBD and the broader Melbourne metropolitan region but also extend our services to the Mornington Peninsula.</p>
                 <div className='form_container'>
                     <form id="quote-form" class="quote-form">

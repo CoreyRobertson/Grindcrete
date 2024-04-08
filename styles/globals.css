@@ -374,12 +374,14 @@ nav button {
 }
 
 .form_section h3 {
-  color: var(--color-blue);
-  font-size: 24px;
-  display: flex;
-  align-items: center;
   margin: 0;
-
+  font-size: 105px;
+  letter-spacing: -5px;
+  background-image: linear-gradient(to right, #1D1D20, #3C71B8);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  line-height: 100px;
 }
 
 .form_section p {
@@ -749,6 +751,14 @@ footer hr {
   .why_content-container {
     width: auto;
     margin: 2rem;
+  }
+
+  .form_section h3 {
+    font-size: 80px;
+    letter-spacing: -5px;
+    margin: 0;
+    line-height: 70px;
+    text-align: center;
   }
 
   .form_section {
