@@ -432,7 +432,7 @@ nav button {
   /* Submit button spans across both columns */
 }
 
-.quote-form button {
+.form_button {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -738,9 +738,9 @@ footer hr {
   }
 
   .form_section {
-
-    height: auto;
     padding: 2rem 0;
+    height: auto;
+
   }
 
   .form_image1 {
@@ -752,20 +752,62 @@ footer hr {
   }
 
   .quote-form {
-    /* Adjust as needed */
 
+    gap: 0rem;
     align-items: center;
   }
 
   .quote_form-fields {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
 
   .quote-form .input-group {
 
-    margin-bottom: 0px;
+    margin-bottom: -15px;
+  }
+
+  .quote-form .input-group input,
+  .quote-form .input-group select {
+    border: 1px solid #ccc;
+    /* Example border */
+    border-radius: 25px;
+    /* Rounded corners */
+
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    /* More styles here for placeholder, focus, etc. */
+    width: 300px;
+  }
+
+  .quote-form .input-group select {
+    -webkit-appearance: none;
+    /* Removes default style of select dropdown */
+    -moz-appearance: none;
+    appearance: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 100%;
+    /* You might want to add a background-image for a custom dropdown arrow */
+  }
+
+  .quote-form .submit-container {
+
+    /* Submit button spans across both columns */
+  }
+
+  .form_button {
+
+    width: 300px;
+    margin-top: 1rem;
   }
 
   .carousel_container {

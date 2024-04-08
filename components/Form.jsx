@@ -1,8 +1,13 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import { BsArrowDownRight } from 'react-icons/bs'
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 const Form = () => {
+
+    const [startDate, setStartDate] = useState(new Date());
+
     return (
         <section className='form_section'>
             <div className='form_image1'>
@@ -31,11 +36,18 @@ const Form = () => {
                                     <option value="service2">Service 2</option>
                                     {/* <!-- Additional options here --> */}
                                 </select>
-                                <input type="date" id="preferred-date" name="preferred_date" required placeholder="Preferred Date" />
+                                <DatePicker
+                                    className='datepicker'
+                                    name='requested date'
+                                    selected={startDate}
+                                    onChange={(date) => setStartDate(date)}
+                                    dateFormat="dd/MM/yyyy"
+                                    aria-label="Requested Date"
+                                />
                             </div>
                         </div>
                         <div class="submit-container">
-                            <button type="submit">SUBMIT</button>
+                            <button className='form_button' type="submit">SUBMIT</button>
                         </div>
                     </form>
                 </div>
