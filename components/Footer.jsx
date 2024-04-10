@@ -38,10 +38,10 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className='footer_column'>
-                    <Link href='/'>
+                    <Link aria-label='facebook' href='/'>
                         <CiFacebook style={{ fontSize: 40 }} />
                     </Link>
-                    <Link href='/'>
+                    <Link aria-label='instagram' href='/'>
                         <CiInstagram style={{ fontSize: 40 }} />
                     </Link>
                 </div>

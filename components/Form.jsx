@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import { BsArrowDownRight } from 'react-icons/bs'
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
@@ -32,24 +31,25 @@ const Form = () => {
                                 <input type="number" id="square-metres" name="square_metres" placeholder="Square Meters" required />
                             </div>
                             <div class="input-group">
-                                <select id="desired-service" name="desired_service" required>
+                                <select aria-label='desired service' id="desired-service" name="desired_service" required>
                                     <option value="">Desired Service</option>
-                                    <option value="service1">Service 1</option>
-                                    <option value="service2">Service 2</option>
-                                    {/* <!-- Additional options here --> */}
+                                    <option value="service1">Grind/Seal/Polish</option>
+                                    <option value="service2">Epoxy</option>
+                                    <option value="service2">Acid Etch</option>
                                 </select>
                                 <DatePicker
+                                    aria-label='date selection'
                                     className='datepicker'
                                     name='requested date'
                                     selected={startDate}
                                     onChange={(date) => setStartDate(date)}
                                     dateFormat="dd/MM/yyyy"
-                                    aria-label="Requested Date"
+
                                 />
                             </div>
                         </div>
                         <div class="submit-container">
-                            <button className='form_button' type="submit">SUBMIT</button>
+                            <button aria-label='form submit button' className='form_button' type="submit">SUBMIT</button>
                         </div>
                     </form>
                 </div>

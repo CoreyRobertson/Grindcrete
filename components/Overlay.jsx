@@ -53,7 +53,7 @@ const Overlay = ({ isVisible, onClose }) => {
         }}>
             <div className='overlay_links-container' ref={linksContainerRef}> {/* Reference the container for GSAP targeting */}
                 <OverlayLink href="/">HOME</OverlayLink>
-                <OverlayLink href="/about">ABOUT</OverlayLink>
+                <OverlayLink href="/About">ABOUT</OverlayLink>
                 <OverlayLink href="#services">SERVICES</OverlayLink>
                 <OverlayLink href="#contact">CONTACT</OverlayLink>
                 <OverlayLink href="/FAQ">FAQ</OverlayLink>
@@ -61,10 +61,10 @@ const Overlay = ({ isVisible, onClose }) => {
             <button className='overlay_close' onClick={onClose}><AiOutlineClose /></button>
             <div className='overlay_right-container'>
                 <div className='overlay_icons'>
-                    <Link href='/'>
+                    <Link aria-label='facebook' href='/'>
                         <CiFacebook style={{ fontSize: 40 }} />
                     </Link>
-                    <Link href='/'>
+                    <Link aria-label='instagram' href='/'>
                         <CiInstagram style={{ fontSize: 40 }} />
                     </Link>
                 </div>

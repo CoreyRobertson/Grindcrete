@@ -6,7 +6,7 @@ const serviceCards = [
     {
         id: 1,
         heading: "GRINDING",
-        text: "Concrete grinding involves the use of specialized machinery to level, smooth, or clean the surface of a concrete slab, removing imperfections, stains, and any surface irregularities. ",
+        text: "Concrete grinding involves the use of specialized machinery to level, smooth, or clean the surface of a concrete slab, removing imperfections, surface stains, and any surface irregularities.",
         text2: 'This process not only prepares the concrete for further treatments but also corrects uneven floors and repairs surface damage. The benefits of concrete grinding include improved aesthetics, increased durability, and the creation of a perfect base for additional finishes, ensuring your concrete surfaces are both functional and visually appealing.'
     }, {
         id: 2,
@@ -16,8 +16,8 @@ const serviceCards = [
     }
     , {
         id: 3,
-        heading: "POLISH",
-        text: "Polishing transforms your concrete floors into smooth, glossy surfaces that reflect light, enhancing the aesthetic appeal of your space. ",
+        heading: "MECHANICAL POLISH",
+        text: "Mechanical polishing transforms your concrete floor into a smooth, glossy surface that reflects light, enhancing the aesthetic appeal of your space. ",
         text2: 'This environmentally friendly process not only adds a sophisticated touch to your floors but also increases their resistance to wear and tear. Polished concrete is low maintenance, requiring only occasional cleaning to maintain its luster, and is ideal for commercial and residential properties looking for a durable, stylish flooring solution.'
     }
     , {

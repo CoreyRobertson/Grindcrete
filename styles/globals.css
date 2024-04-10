@@ -127,6 +127,7 @@ nav a {
 
 .touch {
   margin-right: 5rem;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -237,6 +238,7 @@ nav button {
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 
 .services_section h3 {
@@ -300,7 +302,7 @@ nav button {
   /* Add your specific styles for the second button here */
   background-color: var(--color-blue);
   /* Example property */
-  color: var(--color-white);
+  color: #FFFFFF;
   /* Example property */
   /* Other specific styles for the second button */
   border: none;
@@ -615,7 +617,7 @@ footer hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .FAQ_section h3 {
@@ -630,7 +632,154 @@ footer hr {
   color: var(--color-grey);
 }
 
+.about_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-black);
+  padding: 5rem;
+}
+
+.about_section h3 {
+  color: var(--color-blue);
+}
+
+.about_section p {
+  color: var(--color-grey);
+
+}
+
+.about_section span {
+  color: var(--color-white);
+}
+
+@media (min-width: 1400px) {
+
+  .hero_image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0rem;
+  }
+
+  .logo2 {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    left: 12rem;
+    bottom: 0rem;
+  }
+
+  .services_section {
+    background-color: var(--color-black);
+    height: auto;
+    padding: 10rem 2rem 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .services_section h3 {
+    color: var(--color-blue);
+    font-size: 24px;
+    display: flex;
+
+    align-items: center;
+  }
+
+  .service_card-container {
+
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+
+
+  .service_card {
+    max-width: 300px;
+  }
+
+  .form_section {
+
+    padding: 5rem 0;
+  }
+
+  .why_section {
+    display: flex;
+    background-color: var(--color-black);
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+    padding: 10rem 0;
+  }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  .hero_section {
+    height: auto;
+  }
+
+  .hero_text-bottom {
+    margin: 0rem;
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .hero_text-container .hero_text-bottom h2 {
+    order: -1;
+    /* Moves the h2 above its siblings */
+  }
+
+  .hero_image-container {
+    position: relative;
+
+    height: 652px;
+    margin: 0rem;
+  }
+
+  .service_card {
+    min-width: 220px;
+    max-width: 220px;
+  }
+
+  .service_diamond {
+    height: 600px;
+    width: 600px;
+    right: -10rem;
+    position: absolute;
+  }
+
+  .form_image1 {
+    display: none;
+  }
+
+  .form_image2 {
+    display: none;
+  }
+
+  .why_section {
+    display: flex;
+    background-color: var(--color-black);
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+    padding: 5rem;
+  }
+
+  .why_content-container {
+    width: 90vw;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
+
+
 
   .touch {
     display: none;
@@ -640,6 +789,13 @@ footer hr {
 
     height: auto;
 
+  }
+
+  .hero_image-container {
+    position: relative;
+    width: 393px;
+    height: 852px;
+    margin: 0rem;
   }
 
   .hero_text-container {
@@ -849,6 +1005,14 @@ footer hr {
     gap: 4rem;
   }
 
+  .footer_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
   footer hr {
     width: 70%;
     /* Replace #yourColor with your desired color */
@@ -891,6 +1055,10 @@ footer hr {
 
 
   .FAQ_section {
+    padding: 0rem;
+  }
+
+  .about_section {
     padding: 0rem;
   }
 

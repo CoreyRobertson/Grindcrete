@@ -44,8 +44,8 @@ const Navbar = () => {
                     <Image src='/images/Logo3.svg' height={30} width={150} alt='logo3' />
 
                 </Link>
-                <a className='inter-light touch'>Get in touch <BsArrowUpRight /></a>
-                <button onClick={() => setOverlayVisible(!overlayVisible)}>
+                <a href="mailto:info@grindcrete.com.au?subject=Grincrete%Enquiry" className='inter-light touch'>Get in touch <BsArrowUpRight /></a>
+                <button aria-label='burgermenu' name='burgermenu' onClick={() => setOverlayVisible(!overlayVisible)}>
                     <HiOutlineMenuAlt4 style={{ color: '#FFFFFF', fontSize: 30 }} />
                 </button>
             </nav>

@@ -81,7 +81,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='hero_image-container'>
-                <Image src={imageSrc} alt='Hero Image' quality={100} layout='fill' />
+                <Image src={imageSrc} priority alt='Hero Image' quality={65} layout='fill' />
             </div>
             <div className='logo2'>
                 <Image src='/images/Logo2.svg' alt='Grindcrete Logo' layout='fill' quality={100} />

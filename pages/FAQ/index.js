@@ -1,4 +1,5 @@
 import Form from '@/components/Form'
+import Head from 'next/head'
 import React, { useEffect } from 'react'
 import { BsArrowDownRight } from 'react-icons/bs'
 
@@ -8,6 +9,13 @@ const index = () => {
 
     return (
         <page>
+            <Head>
+                <title>Frequently Asked Questions - Grind Crete</title>
+                <meta name="description" content="Find answers to common questions about concrete grinding, sealing, and polishing services. Learn how Grind Crete can enhance your property with durable, stylish concrete finishes." />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="keywords" content="concrete grinding, concrete sealing, concrete polishing, polished concrete floors, concrete finishes, concrete maintenance" />
+
+            </Head>
             <section className='FAQ_section'>
                 <div className='why_content-container'>
                     <h3 className='inter-bold'><BsArrowDownRight />FAQ</h3>
