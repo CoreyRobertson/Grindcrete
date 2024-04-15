@@ -70,7 +70,7 @@ const Hero = () => {
                 </div>
                 <div className='hero_text-bottom'>
                     <p className='roboto-light'>
-                        At Grind Crete, we specialise in transforming your concrete surfaces into stunning masterpieces that exude durability, style, and functionality. <span style={{ color: '#F2F2F2' }}>Servicing Southeast Melbourne, reach out today to bring new life to your space.</span>
+                        At Grind Crete, we specialise in transforming your concrete surfaces into stunning masterpieces that exude durability, style, and functionality. <span style={{ color: '#F2F2F2' }}>Servicing Metro Melbourne, reach out today to bring new life to your space.</span>
                     </p>
                     <button type='button'>
                         BOOK NOW
