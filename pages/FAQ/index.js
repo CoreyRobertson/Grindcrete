@@ -14,7 +14,7 @@ const index = () => {
                 <meta name="description" content="Find answers to common questions about concrete grinding, sealing, and polishing services. Learn how Grind Crete can enhance your property with durable, stylish concrete finishes." />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="keywords" content="concrete grinding, concrete sealing, concrete polishing, polished concrete floors, concrete finishes, concrete maintenance" />
-
+                <link rel="icon" href="/images/favicon.ico" />
             </Head>
             <section className='FAQ_section'>
                 <div className='why_content-container'>
