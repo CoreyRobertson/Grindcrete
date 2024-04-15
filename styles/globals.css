@@ -389,6 +389,7 @@ nav button {
 .form_section p {
   width: 50%;
   color: var(--color-black);
+  text-align: center;
 }
 
 .quote-form {
@@ -716,13 +717,31 @@ footer hr {
 
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1280px) and (min-height: 800px) and (max-height: 800px) {
+@media only screen and (min-width: 1280px) and (max-width: 1400px) and (min-height: 800px) and (max-height: 900px) {
   .hero_text-bottom p {
     margin: 0;
     font-size: 16px;
     width: 25rem;
     margin-bottom: .7rem;
     color: var(--color-grey);
+  }
+
+  .overlay_link {
+
+    font-size: 65px;
+
+    line-height: 60px;
+  }
+
+  .form_section h3 {
+    margin: 0;
+    font-size: 64px;
+    letter-spacing: -5px;
+    background-image: linear-gradient(to right, #1D1D20, #3C71B8);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    line-height: 60px;
   }
 }
 
