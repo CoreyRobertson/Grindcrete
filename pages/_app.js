@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import Navbar from '@/components/Navbar' // Adjust the path as necessary
 import Footer from '@/components/Footer' // Adjust the path as necessary
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App({ Component, pageProps }) {
   return (
@@ -8,6 +9,7 @@ export default function App({ Component, pageProps }) {
       <Navbar />
       <main>
         <Component {...pageProps} />
+        <Analytics />
       </main>
       <Footer />
     </>

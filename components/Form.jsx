@@ -8,7 +8,7 @@ const Form = () => {
     const [startDate, setStartDate] = useState(new Date());
 
     return (
-        <section className='form_section'>
+        <section className='form_section' id='form'>
             <div className='form_image1'>
                 <Image src='/images/diamondgreygrey.svg' alt='diamondgreygrey' layout='fill' />
             </div>
@@ -20,7 +20,7 @@ const Form = () => {
                 <p style={{ fontSize: '18px', color: '#3C71B8' }} className='roboto-bold'>Reach out to us now for an estimate on your home or business flooring needs!</p>
                 <p className='roboto-light'>Based in Melbourne, Grind Crete are able to serve not only the entire CBD and the broader Melbourne metropolitan region but also extend our services to the Mornington Peninsula.</p>
                 <div className='form_container'>
-                    <form id="quote-form" class="quote-form">
+                    <form id="quote-form" class="quote-form" action="https://formsubmit.co/info@grindcrete.com.au" method="POST">
                         <div className='quote_form-fields'>
                             <div class="input-group">
                                 <input type="text" id="name" name="name" placeholder="Name" required />

@@ -61,18 +61,16 @@ const Overlay = ({ isVisible, onClose }) => {
             <button className='overlay_close' onClick={onClose}><AiOutlineClose /></button>
             <div className='overlay_right-container'>
                 <div className='overlay_icons'>
-                    <Link aria-label='facebook' href='/'>
-                        <CiFacebook style={{ fontSize: 40 }} />
-                    </Link>
-                    <Link aria-label='instagram' href='/'>
+
+                    <Link aria-label='instagram' href='https://www.instagram.com/grind.crete?igsh=MzRlODBiNWFlZA=='>
                         <CiInstagram style={{ fontSize: 40 }} />
                     </Link>
                 </div>
                 <Image src='/images/Logo3.svg' height={30} width={150} alt='logo3' />
 
                 <p className='roboto-light'>Nicholas Georgakis</p>
-                <a className='roboto-light' href="mailto:info@grindcrete.com.au?subject=Grincrete%Enquiry">info@grindcrete.com.au</a>
-                <a className='roboto-light' href="tel:+1234567890">Call Us: 04 *** ***</a>
+                <a className='roboto-light' href="mailto:info@grindcrete.com.au?subject=GrindCrete%Enquiry">info@grindcrete.com.au</a>
+                <a className='roboto-light' href="tel:+61403455357">Call Us: 0403 455 357</a>
                 <p className='roboto-light'>Melbourne, Aus.</p>
 
             </div>

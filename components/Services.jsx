@@ -62,8 +62,8 @@ const Services = () => {
                         </div>
                     ))}
                     <div className="buttons-container">
-                        <button>CONTACT</button>
-                        <button>BOOK NOW</button>
+                        <a href='#contact'>CONTACT</a>
+                        <a href="mailto:info@grindcrete.com.au?subject=Grincrete%Enquiry">BOOK NOW</a>
                     </div>
                 </div>
             </div>
