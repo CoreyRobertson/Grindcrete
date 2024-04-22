@@ -54,8 +54,8 @@ const Overlay = ({ isVisible, onClose }) => {
             <div className='overlay_links-container' ref={linksContainerRef}> {/* Reference the container for GSAP targeting */}
                 <OverlayLink href="/">HOME</OverlayLink>
                 <OverlayLink href="/About">ABOUT</OverlayLink>
-                <OverlayLink href="#services">SERVICES</OverlayLink>
-                <OverlayLink href="#contact">CONTACT</OverlayLink>
+                <OverlayLink href="/#services">SERVICES</OverlayLink>
+                <OverlayLink href="/#contact">CONTACT</OverlayLink>
                 <OverlayLink href="/FAQ">FAQ</OverlayLink>
             </div>
             <button className='overlay_close' onClick={onClose}><AiOutlineClose /></button>
