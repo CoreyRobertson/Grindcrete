@@ -15,6 +15,7 @@ const index = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="keywords" content="concrete grinding, concrete sealing, concrete polishing, polished concrete floors, concrete finishes, concrete maintenance" />
                 <link rel="icon" href="/images/favicon.ico" />
+                <link rel="canonical" href="https://www.grindcrete.com.au/FAQ" />
             </Head>
             <section className='FAQ_section'>
                 <div className='why_content-container'>

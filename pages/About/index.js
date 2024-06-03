@@ -12,7 +12,9 @@ const index = () => {
                 <meta name="description" content="Grind Crete is a Melbourne-based concrete grinding company dedicated to breathing new life into your concrete surfaces. Concrete grinding and finishing across Melbourne." />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" href="/images/favicon.ico" />
+                <link rel="canonical" href="https://www.grindcrete.com.au/About" />
             </Head>
+
             <section className='about_section'>
                 <div className='why_content-container'>
                     <h3 className='inter-bold'><BsArrowDownRight />ABOUT US</h3>
